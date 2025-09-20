@@ -1,22 +1,39 @@
 PROJECT OVERVIEW:
+
 CAMPUS COURSE AND RECORDS MANAGER (CCRM)
+
 Heartiest welcome to the CAMPUS COURSE AND RECORDS MANAGER (CCRM), a console-based application which I have built from the root level to help educational institutions manage their academic operations. I learnt about core concepts of Java SE, focusing on building robust , well structured system that handles everything from student enrollment ,  grading system , course managemnt backup and many more. 
+
 I have designed CCRM to be powerful and easy to use using morder highly demanding Java features to ensure that its not just functional but also has a clear demonstartion of strong software design principles.
 
 KEY GEATURES I IMPLEMENTED 
-*STUDENT HUB:
+
+STUDENT HUB:
+
 Easy to add new students, update their details or view their profiles . each and every record is managed with care.
-*COURSE CATALOG:
+
+COURSE CATALOG:
+
 Create and manage the course offering , detailings everything from cerdits to the instructor and semester.
-*SEAMLESS ENROLLMENT:
+
+SEAMLESS ENROLLMENT:
+
 Enroll and unenroll students in their respective courses ,with the system automatically checking for errors and credit limits .
-*GRADING AND TRANSCRIPTS:
-Record grades and calculate GPAs in no time .Generate detailed academic summary for any student .
-*DATA PORTABILITY:
+
+GRADING AND TRANSCRIPTS:
+
+Record grades and calculate GPAs in no time .Generate detailed academic summary for any student 
+
+DATA PORTABILITY:
+
 I have built a robust import export feature , allowing the user to work with CSV files for easy data exchange .
-*SAFE AND SOUND:
+
+SAFE AND SOUND:
+
 The automatic backup system creates timestamped snapshots of all your data , so that the user never have to worry about losing progress.
-*SMART SEARCH :
+
+SMART SEARCH :
+
 Quickly find what you need using the search and filter opertations powered by Java's Stream API.
 
 MY TECH STACK AND JAVA JOURNEY:
@@ -104,7 +121,11 @@ C:\Users\Hima Agarwal\OneDrive\Desktop\CampusCourseRecordsManager\screenshorts
 ![alt text](jdk-install.png.png)
 
 *RUNNING IN ECLIPSE :
+
+
 Import the Project: I opened Eclipse, selected File > Import > Existing Projects into Workspace, and browsed to the project folder.
+
+
 Locate the Main Class: The entry point is in src/edu/ccrm/cli/CCRMApplication.java.
 Run the Application: I right-clicked the file and selected Run As > Java Application. The console menu will pop up, and you're ready to go!
 ![alt text](eclipse-project-structure.png.png)
@@ -119,23 +140,37 @@ edu.ccrm.util
 edu.ccrm.config
 
 I have used my acdemic knowledge and brought code into life , I have used it in my code:
+
 *OOP & Inheritance Person (abstract)- Student in the domain package.
+
 *Encapsulation-All fields are private with getters/setters throughout the domain classes.
+
 *Polymorphism-The toString() overrides in Student and Course for display.
+
 *Stream API-CourseService and StudentService for search and filter operations.
+
 *File I/O (NIO.2)-The BackupService class in the io package.
+
 Design Patterns	AppConfig as a Singleton in config, and Course.Builder as a Builder.
+
 *Lambdas Custom comparators in the util.Comparators class.
+
 *Exception Handling-My custom DuplicateEnrollmentException in the exception package.
+
 *Enums Semester and Grade enums in the domain package.
 
-A Note on Assertions
+A NOTE ON ASSERTIONS:
+
 I used Java assertions to check important invariants in the code. To run the program with assertions enabled (highly recommended for testing!), use the -ea flag:
 bash
 java -ea -jar CCRMApplication.jar
 
+
 SEE IT IN ACTION:
 I have included a folder of screenshorts that shows the application from installation process to various features in action. Screenshorts include menu system with options of managing students , courses , backups and many more things.
 
+
 ACKNOWLEDGEMENT:
+
+
 This project was an important and memorable learning experience. It has taught me alot. I'd like to thank the Java documentation and various programming communities online that serve as a free sourse to help new begineers like me, they helped me whenever I was stuck .The project 's structure and requirements shapes my academic curiculum , encouraging me to dive deeper into java SE features , exploring them , implementing them and learning them.
