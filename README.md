@@ -40,30 +40,54 @@ MY TECH STACK AND JAVA JOURNEY:
 This project was my space to really learn deep about Java SE. Here's a simple and easy breakdown of what I learned along the way while making this project:
 THE EVOLUTION OF JAVA:
 A quick look back through journey of java 
+
 * 1991:*
+  
 **The Secret Project.** A team at Sun Microsystems starts a secret project called "Oak" to make programming for smart appliances easier.
+
 *1995:*
- **Hello, World! ** The project is renamed **Java** (inspired by coffee) and officially released. Its main idea: "Write Once, Run Anywhere". This means you can
+
+**Hello, World! ** The project is renamed **Java** (inspired by coffee) and officially released. Its main idea: "Write Once, Run Anywhere". This means you can
  write code on one computer and it would run on any other, which was a huge deal at the time.
+
 *1996:*
+
 **JDK 1.0.** The first public development kit was released. 
+
 *2004:*
+
 **Java 5 (JDK 1.5): A Big Upgrade.**
+
 This was a huge update that added powerful new features that developers loved.
+
 *2006:* 
+
 **Java Goes Open Source.**
+
 Sun releases Java's core code under an open-source license, letting the community contribute and helping it grow even faster.
+
 *2010:*
+
 **Oracle Takes Over.**
+
 Sun Microsystems is acquired by Oracle.Now, Oracle is the new owner and is in charge of taking care of Java.
+
 *2014:*
+
 **Java 8: The Modern Era Begins.**
+
 This is the most important update since Java 5. It introduced **Lambda Expressions**, which allowed for a much cleaner and more modern style of coding, and the **Stream API** for processing data.
+
 *2018:*
+
 **Faster Releases.** Tired of waiting years for big updates, Oracle changed the release cycle. Now, a new version comes out every six months.
+
 *2019:*
+
 **Java Gets a Price Tag (for some).** Oracle changes its license terms.Java is still free for general personal and development use, but companies now need to pay for updates and support on certain versions from Oracle. 
+
 *2023 and Beyond:*
+
 **Java Today.** Java remains one of the most popular and reliable languages in the world, running on billions of devices. It continues to evolve quickly, adding features to keep it modern, fast, and relevant for huge enterprise applications, cloud systems, and Android development.
 
 PICKING UP THE RIGHT JAVA PLATFORM:
@@ -174,3 +198,4 @@ ACKNOWLEDGEMENT:
 
 
 This project was an important and memorable learning experience. It has taught me alot. I'd like to thank the Java documentation and various programming communities online that serve as a free sourse to help new begineers like me, they helped me whenever I was stuck .The project 's structure and requirements shapes my academic curiculum , encouraging me to dive deeper into java SE features , exploring them , implementing them and learning them.
+
